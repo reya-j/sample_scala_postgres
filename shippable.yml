@@ -1,4 +1,8 @@
 language: scala
+build_image: drydock/u12scapls:tip
+
+services:
+  - postgres
 
 scala:
   - 2.10.2
